@@ -1,68 +1,31 @@
-📘 Sistema Bancário em Python – Bootcamp DIO
+# 📘 Sistema Bancário em Python – Bootcamp DIO
 
-Este projeto foi desenvolvido como parte do Desafio de Código do Bootcamp da DIO, cujo objetivo é criar um sistema bancário simples, aplicando conceitos básicos de Python, como:
+Projeto criado para o desafio do Bootcamp da DIO, com foco em lógica de programação e manipulação de dados usando Python.
 
-Estruturas de dados (listas e dicionários)
+## 🚀 Funcionalidades
 
-Funções
+* Cadastro de usuários (nome, data de nascimento, CPF e endereço)
+* Validação de CPF duplicado
+* Criação de contas bancárias
+* Agência fixa **001** e número da conta sequencial
+* Depósito, saque e extrato
+* Histórico individual por conta
 
-Condicionais
+## 🧠 Conceitos Utilizados
 
-Laços de repetição
+* Listas e dicionários
+* Funções
+* Condicionais e loops
+* Menu interativo
 
-Entrada e saída de dados
+## 📄 Estrutura do Projeto
 
-O sistema permite o cadastro de usuários, criação de contas bancárias e movimentações financeiras básicas.
+```
+sistema_bancario.py
+```
 
-🚀 Funcionalidades
-👤 Cadastro de Usuários
+## 📚 Como executar
 
-Cadastro por nome, data de nascimento, CPF e endereço completo.
-
-Validação para impedir CPFs duplicados.
-
-🏦 Gerenciamento de Contas
-
-Cada usuário pode possuir uma ou mais contas.
-
-Número da conta gerado automaticamente e de forma sequencial.
-
-Agência fixa: "001".
-
-💰 Operações Bancárias
-
-Dentro de cada conta é possível realizar:
-
-Depósito
-
-Saque (com limite diário e por operação)
-
-Visualização do extrato
-
-Histórico de movimentações armazenado individualmente por conta
-
-🧠 Conceitos Técnicos Aplicados
-
-Funções com parâmetros posicionais e nomeados
-
-Manipulação de listas e dicionários
-
-Modularização lógica do código
-
-Estrutura de menu interativo
-
-Controle de fluxo com while e condicionais
-
-📄 Estrutura do Projeto
-sistema_bancario.py  # Arquivo principal com todas as funcionalidades do sistema
-
-🏆 Objetivo do Desafio
-
-O objetivo deste desafio é reforçar a lógica de programação e manipulação de dados, simulando funcionalidades reais de um sistema bancário, mas de forma didática e acessível para quem está começando na programação.
-
-🛠 Tecnologias Utilizadas
-
-Python 3.x
-
-📚 Como executar
+```bash
 python sistema_bancario.py
+```
