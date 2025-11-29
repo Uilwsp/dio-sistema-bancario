@@ -41,7 +41,6 @@ def criar_usuario(usuarios):
     print("✔ Usuário criado com sucesso!")
 
 
-
 # LISTAR USUÁRIOS
 
 def listar_usuarios(usuarios):
@@ -58,7 +57,6 @@ def listar_usuarios(usuarios):
         print()
 
 
-
 # FILTRAR USUÁRIO POR CPF
 
 def filtrar_usuario(cpf, usuarios):
@@ -66,7 +64,6 @@ def filtrar_usuario(cpf, usuarios):
         if usuario["cpf"] == cpf:
             return usuario
     return None
-
 
 
 # CRIAR CONTA
@@ -100,7 +97,6 @@ def criar_conta_corrente(contas, usuarios, agencia="001"):
     print(f"Cliente: {usuario['nome']}")
 
 
-
 # LISTAR CONTAS
 
 def listar_contas(contas):
@@ -124,7 +120,6 @@ def buscar_conta(numero_conta, contas):
     return None
 
 
-
 # DEPÓSITO
 
 def depositar(conta):
@@ -136,7 +131,6 @@ def depositar(conta):
         print("✔ Depósito realizado!")
     else:
         print("❌ Valor inválido.")
-
 
 
 # SAQUE
